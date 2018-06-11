@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-promise-sample" version="1.0.0">
+  <name>CordovaPlugin Promise Sample</name>
+  <author>Ken Naito</author>
+  <description>This plugin is promise sample plugin.</description>
+  <license>MIT</license>
+  <engines>
+    <engine name="cordova" version=">=3.0.0" />
+  </engines>
+  <hook type="after_run" src="scripts/afterRun.js" />  
+</plugin>
